@@ -7,7 +7,12 @@
     <h1> Log in Page</h1>
 </body>
 <ul>
-    <li><a href ="/login">login page </a></li>
+    <li><a href ="/">Home page </a></li>
     <li><a href = "/about_us">About Us Page </a></li>
 </ul>
+<form method = "post" action = "/user_login" enctype="application/x-www-form-urlencoded">
+    <input type="text" name="username" placeholder = "user name " value = ""/>
+    <input type="password" name="password" value="" placeholder = "*****"/>
+    <input type="submit" id="submitBtn" name="Login"/>
+</form>
 </html>
